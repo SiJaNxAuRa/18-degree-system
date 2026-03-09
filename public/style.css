@@ -1,0 +1,106 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+background: radial-gradient(circle at top,#0f2027,#203a43,#0a0f1a);
+color:white;
+margin:0;
+padding:40px;
+text-align:center;
+}
+
+h1,h2{
+letter-spacing:2px;
+margin-bottom:25px;
+}
+
+/* Glass card */
+
+.card{
+background: rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.1);
+backdrop-filter: blur(12px);
+padding:35px;
+border-radius:16px;
+width:360px;
+margin:auto;
+box-shadow:0 0 25px rgba(0,255,255,0.15);
+}
+
+/* inputs */
+
+input,textarea{
+width:260px;
+padding:12px;
+margin:8px;
+border-radius:8px;
+border:none;
+outline:none;
+background:#121a28;
+color:white;
+}
+
+/* buttons */
+
+button{
+background:linear-gradient(45deg,#00e5ff,#00ffa6);
+border:none;
+padding:12px 25px;
+border-radius:25px;
+cursor:pointer;
+font-weight:bold;
+transition:0.25s;
+}
+
+button:hover{
+transform:scale(1.07);
+box-shadow:0 0 10px #00e5ff;
+}
+
+/* dashboard grid */
+
+.dashboard{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+max-width:500px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.stat{
+background:rgba(255,255,255,0.06);
+padding:20px;
+border-radius:12px;
+}
+
+.stat h3{
+margin:5px;
+}
+
+/* table */
+
+table{
+margin:auto;
+border-collapse:collapse;
+background:#0f1722;
+border-radius:10px;
+overflow:hidden;
+}
+
+th{
+background:#00e5ff;
+color:black;
+padding:12px;
+}
+
+td{
+padding:12px;
+border-bottom:1px solid #1d2a3a;
+}
+
+tr:hover{
+background:#182535;
+}
+
+a{
+text-decoration:none;
+}
